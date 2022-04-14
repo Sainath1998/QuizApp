@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Square+Peg&family=Ubuntu:wght@300&display=swap');
+ 
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    background-color: #40DFEF;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quiz-container{
+    background-color: #B9F8D3;
+    border-radius: 10px;
+    box-shadow: 0 10 5px rgba(0,0,0,0.1);
+    width: 400px;
+    overflow: hidden;
+}
+.quizheader{
+    padding: 2rem;
+}
+ul{
+    list-style: none;
+    padding: 0;
+
+}
+button{
+    background-color: #E78EA9;
+    display: block;
+    padding:1rem;
+    color: white;
+    font-size: 1.3rem;
+    font-family: inherit;
+    font-weight: bolder;
+    width: 100%;
+}
+button:hover{
+    background-color: #B9F8D3;
+}
+ul li{
+    font-size: 1.1rem;
+    margin: 1rem 0;
+    font-weight: bold;
+}
+ul li label{
+    cursor: pointer;
+}
